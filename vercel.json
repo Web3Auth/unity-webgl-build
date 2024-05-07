@@ -1,0 +1,13 @@
+{
+    "headers": [
+      {
+        "source": "Build/unity-webgl-build.framework.js.unityweb",
+        "headers": [
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          }
+        ]
+      }
+    ]
+}
