@@ -8,6 +8,24 @@
             "value": "gzip"
           }
         ]
+      },
+      {
+        "source": "Build/unity-webgl-build.data.unityweb",
+        "headers": [
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          }
+        ]
+      },
+      {
+        "source": "Build/unity-webgl-build.wasm.unityweb",
+        "headers": [
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          }
+        ]
       }
     ]
 }
