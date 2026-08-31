@@ -1,31 +1,43 @@
 {
-    "headers": [
-      {
-        "source": "Build/unity-webgl-build.framework.js.unityweb",
-        "headers": [
-          {
-            "key": "Content-Encoding",
-            "value": "gzip"
-          }
-        ]
-      },
-      {
-        "source": "Build/unity-webgl-build.data.unityweb",
-        "headers": [
-          {
-            "key": "Content-Encoding",
-            "value": "gzip"
-          }
-        ]
-      },
-      {
-        "source": "Build/unity-webgl-build.wasm.unityweb",
-        "headers": [
-          {
-            "key": "Content-Encoding",
-            "value": "gzip"
-          }
-        ]
-      }
-    ]
+  "headers": [
+    {
+      "source": "Build/unity-webgl-build.framework.js.gz",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "Build/unity-webgl-build.data.gz",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "source": "Build/unity-webgl-build.wasm.gz",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    }
+  ]
 }
